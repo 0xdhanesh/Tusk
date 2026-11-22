@@ -1,5 +1,7 @@
 # IPA Lab Desktop v3.0.0
 
+![IPA Lab Desktop](IPA-Lab.png)
+
 **A macOS desktop IPA research workflow — inspired by the compact, dark, warm-color user experience of Impactor v2.7.2.** This is an independent tool; it does not include Impactor's signing or sideloading backend and is not affiliated with Impactor.
 
 Unlike IPA Lab v2's full-screen TUI, v3 opens an actual, resizable **Qt desktop window** (PySide6) with mouse controls, native macOS title bar, persistent workflow navigation, an optional activity panel, browse dialogs, a step progress bar, and nonblocking background jobs.

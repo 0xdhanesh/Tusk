@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Nested third-party checkout (cloned on demand; has its own .git) ---
+vendor/fairplay-decrypt/
+
+# --- App output & sensitive artifacts ---
+outputDir*/
+*.ipa
+*.dec.ipa
+credential.bin
+*.key
+*.pem
+.env
+.env.*
+*.log
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes

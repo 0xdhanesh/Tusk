@@ -1,0 +1,63 @@
+/* IPA Lab — Impactor-inspired warm dark macOS desktop style.
+   Visual inspiration only; IPA Lab is a separate independent project. */
+QMainWindow, #root { background: #1d181b; color: #f4e9ea; }
+QWidget { color: #e9dfe3; font-family: 'SF Pro Text', 'Helvetica Neue', 'Arial'; font-size: 13px; }
+#topbar { background: #241d21; border-bottom: 1px solid #3b3035; }
+#brand { color: #f2d8e0; font-size: 18px; font-weight: 800; letter-spacing: 1px; }
+#brandSubtitle { color: #a8969d; font-size: 11px; }
+#sidebar { background: #211b1e; border-right: 1px solid #3e3238; }
+#sidebarHeader { color: #856d77; font-size: 10px; font-weight: 800; letter-spacing: 1.5px; }
+#sidebarStep { padding: 10px 13px; border: 1px solid transparent; border-radius: 9px; background: transparent; color: #bcaab2; text-align: left; font-weight: 600; }
+#sidebarStep:hover { background: #352a2f; color: #fff0f4; }
+#sidebarStep[active="true"] { background: #47313c; border: 1px solid #85566c; color: #ffd7e4; }
+#sidebarStep[done="true"] { color: #9fd6b8; }
+#pageTitle { font-size: 25px; font-weight: 750; color: #f8e9ee; }
+#pageSubtitle { color: #ae9aa3; font-size: 12px; }
+#stepLabel { color: #e6adc3; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; }
+#surface { background: #292126; border: 1px solid #40333b; border-radius: 15px; }
+#surfaceSecondary { background: #221c20; border: 1px solid #393038; border-radius: 12px; }
+#cardTitle { color: #f0dfe7; font-size: 15px; font-weight: 700; }
+#bodyText { color: #c4b3bb; font-size: 13px; }
+#fineText { color: #99848e; font-size: 11px; }
+#positiveText { color: #8bd4b4; font-weight: 650; }
+#negativeText { color: #f0a4a7; font-weight: 650; }
+#value { color: #ffedf4; font-weight: 650; }
+#pill { border-radius: 13px; background: #342831; color: #edc7d5; border: 1px solid #59404e; padding: 7px 12px; }
+QLineEdit, QSpinBox, QComboBox { background: #191418; border: 1px solid #57434d; border-radius: 8px; padding: 10px 12px; color: #f6eaf1; selection-background-color: #bf7893; min-height: 17px; }
+QLineEdit:hover, QSpinBox:hover, QComboBox:hover { border: 1px solid #95687b; }
+QLineEdit:focus, QSpinBox:focus, QComboBox:focus { border: 1px solid #e9a0bc; background: #241b21; }
+QComboBox::drop-down { border: 0; width: 25px; }
+QPushButton { background: #3d3037; border: 1px solid #5c4551; border-radius: 9px; padding: 10px 16px; font-weight: 650; color: #f3dee7; min-height: 17px; }
+QPushButton:hover { background: #57404c; border-color: #96677c; }
+QPushButton:pressed { background: #34242e; }
+QPushButton:disabled { background: #31292c; color: #806e75; border-color: #3e3338; }
+QPushButton#primary { background: #e8a3b9; border-color: #e8a3b9; color: #321e29; font-weight: 800; }
+QPushButton#primary:hover { background: #f8bdd0; border-color: #f8bdd0; }
+QPushButton#primary:pressed { background: #d28ea7; }
+QPushButton#flatButton { background: transparent; border: 1px solid transparent; color: #bcaab2; padding: 7px 10px; }
+QPushButton#flatButton:hover { background: #3b2c34; color: #ffe6ef; }
+QPushButton#dangerButton { background: #513034; color: #ffbfc4; border-color: #835059; }
+QPushButton#dangerButton:hover { background: #64373d; }
+QListWidget { background: #1d171b; border: 1px solid #493640; border-radius: 10px; padding: 6px; outline: none; }
+QListWidget::item { color: #e1cbd5; padding: 11px; border-radius: 7px; margin: 2px; }
+QListWidget::item:hover { background: #403039; }
+QListWidget::item:selected { background: #704758; color: #fff4f8; }
+QPlainTextEdit { background: #171216; color: #b7abae; border: 1px solid #3c3036; border-radius: 10px; padding: 10px; font-family: 'SF Mono', Menlo, monospace; font-size: 11px; }
+#activity { background: #221b20; border-left: 1px solid #40323b; }
+#footer { background: #231c20; border-top: 1px solid #3c3035; }
+#footerStatus { color: #ad9ba3; font-size: 11px; }
+#alert { background: #402a30; border: 1px solid #9c5967; border-radius: 11px; }
+#alertTitle { color: #ffd1d4; font-weight: 750; }
+#alertText { color: #eebdc3; font-size: 12px; }
+QScrollArea { border: 0; background: transparent; }
+QScrollArea > QWidget > QWidget { background: transparent; }
+QScrollBar:vertical { background: #231b21; width: 9px; border: none; }
+QScrollBar::handle:vertical { background: #735664; border-radius: 4px; min-height: 25px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }
+QProgressBar { border: none; background: #453640; height: 5px; border-radius: 2px; }
+QProgressBar::chunk { background: #e3a0b9; border-radius: 2px; }
+QCheckBox { color: #e5d3db; spacing: 10px; }
+QCheckBox::indicator { width: 17px; height: 17px; }
+QCheckBox::indicator:unchecked { border: 1px solid #765867; background: #251e23; border-radius: 5px; }
+QCheckBox::indicator:checked { border: 1px solid #edb0c6; background: #ca829e; border-radius: 5px; image: none; }
+QToolTip { color: #fcecf1; background: #4c3641; border: 1px solid #92647a; padding: 6px; }
